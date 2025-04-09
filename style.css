@@ -1,13 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-body{
-    font-family: "Merriweather", serif;
-    background-color: #f4f4f4
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #f4f4f4;
+    /*comentario*/
 }
-section{
-    max-width: 2140px;
+
+section {
+    max-width: 1140px;
     margin: 0 auto;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.logotipo img {
+    width: 200px;
+    border-radius: 20px;
+}
+.logotipo{
+    float: left;
+}
+.menu li a{
+    color: #000;
+    text-decoration: none; 
+}
+.menu li a:hover{
+    color:#444;
+}
+.menu{
+    padding-top: 20px;
+}
+.slider img{
+    width: 100%;
+}
+header {
+    padding: 10px 0;
+    height: 100px;
+}
+.item{
+    background-color: #fff;
+    padding: 1%;
+    display: inline-block;
+    width: 300px;
+    margin: 1px;
+}
+.descricao{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+}
+a{
+    text-decoration: none;
+}
+footer div{
+    width: 32%;
+    display: inline-block;
+}
+footer iframe{
+    width: 100%!important;
+}
+footer {
+    background-color: #555;
+}
+.formulario input{
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+}
+.contato p{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
 }
