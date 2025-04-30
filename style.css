@@ -61,12 +61,14 @@ a{
 footer div{
     width: 32%;
     display: inline-block;
+    vertical-align: top;
 }
 footer iframe{
     width: 100%!important;
 }
 footer {
     background-color: #555;
+    padding: 40px 0;
 }
 .formulario input{
     width: 100%;
@@ -77,4 +79,51 @@ footer {
     font-size: 20px;
     padding: 10px;
     color: #fff;
+}
+.depoimentos {
+    text-align: center;
+}
+.depoimentos h3 {
+    color: #444;
+    font-weight: bold;
+}
+.depoimentos h2{  
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    padding: 20px;
+}
+.depoimentos img {
+width: 100px;
+border-radius: 56px;
+border: 5px solid #f4f4f4;
+}
+.depoimentos .descricao{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 30px 0;
+}
+.sobre{
+    background: url('img/viage.png')
+     50% / cover no-repeat fixed;
+}
+.sobre .texto{
+    width: 50%;
+    background-color: #0000003b;
+    color: #ffffff;
+    padding: 40px;
+    height: 270px;
+}
+.texto h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.texto h2 .texto p{
+    max-width: 570px;
+    float: right;
+
+}
+.viagens{
+    padding: 40px 0;
 }
